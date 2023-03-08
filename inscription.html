@@ -1,0 +1,55 @@
+<!Doctype html>
+<html lang="fr">
+     <head>
+        <meta charset="utf-8">
+        <link href="inscription.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <title>Inscription</title>
+     </head>
+     <body>
+          <section class="inscription">
+               <form>
+                    <h1>S'inscrire</h1>
+                    <div class="formulaire">
+                         <div class="nom_prenom">
+                               <div class="nom">
+                                   <input type="text" placeholder="Nom" name="nom" id="nom">
+                              </div>
+                              <div class="prenom">
+                                   <input type="text" placeholder="Prenom" name="prenom" id="prenom">
+                              </div>
+                         </div>
+                         <div class="icone">
+                              <input class="pseudo" type="pseudo" placeholder="Pseudo" name="pseudo" id="pseudo">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+                         </div>
+                         <div class="icone">
+                              <input class="mail" type="email" placeholder=" Adresse e-mail" name="mail" id="mail">
+                              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </div>
+                         <div class="icone">
+                              <p>Date de naissance</p>
+                              <input class="naissance" type="date"  name="naissance" id="naissance">
+                         </div >
+                         <p>Genre</p>
+                         <select name="genre" class="genre">
+                              <option value="" disabled selected hidden></option>
+                              <option value="femme">Femme</option>
+                              <option value="homme">Homme</option>
+                              <option value="homme">Autre</option>
+                         </select>
+                         <div class="icone">
+                              <input type="password" class="pass" placeholder="Mots de passe" name="pass" id="pass">
+                              <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                         </div>
+                         <div class="icone">
+                              <input type="password" class="pass" placeholder="Confirmer vorte mots de passe" name="pass" id="pass">
+                              <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                         </div>
+                         <p>En cliquant sur s'inscrire, vous acceptez les condition générales.</p>
+                         <button type="submit"><a href="index.html">S'inscrire</a></button>
+                    </div>
+               </form>
+          </section>
+     </body>
+</html>

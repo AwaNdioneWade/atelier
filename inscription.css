@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: #696969;
+}
+.inscription{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inscription form{
+    position: relative;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px #696969;
+    border-radius: 6px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: green;
+}
+.inscription input, .genre{
+    background-color: #f5f6f7;
+    padding: 8px 5px;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: 0;
+    border: 1px solid #ccc;
+}
+.nom_prenom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.nom_prenom input{
+    width: 90%;
+}
+.mail, .pseudo, .naissance, .pass, .genre{
+    width: 95%;
+    margin-bottom: 10px;
+}
+.icone{
+    position: relative;
+}
+.icone i{
+    position: absolute;
+    top: 0.6em;
+    left: 20em;
+}
+form button{
+    width: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+    height: 3em;
+    background-color: green;
+    color: white;
+    margin: auto;
+    border-radius: 6px;
+}
