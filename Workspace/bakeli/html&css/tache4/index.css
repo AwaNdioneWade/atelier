@@ -1,0 +1,349 @@
+nav{
+    width: 100%;
+    background-color: white;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+nav a, nav li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 15px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.table{
+    display: table;
+    margin: 0 auto;
+}
+.acc img{
+    position: relative;
+    width: 100%;
+    filter:opacity(0.7);
+}
+.fotobakeli {
+    position: absolute;
+    bottom: 6em;
+    width: 210px;
+    margin-left: 35em;
+    background-color: white;
+    border-radius: 20px;
+}
+.fotobakeli img{
+    width: 200px;
+}
+
+.h{
+    position: relative;
+    display: table;
+    width: 28%;
+    height: 60px;
+    background-color: dimgray;
+    text-align: center;
+    margin-top: -26em;
+    margin-left: 30em;
+    color: white;
+}
+h2, .p_prodemark p {
+    display: table-cell;
+    vertical-align: middle;
+}
+.divp{
+    flex-direction:row;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    font-size: 18px;
+    padding-bottom: 20em;
+}
+ .image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.clasimg{
+    width: 60px;
+    border: 2px solid #379E8B;
+    border-radius: 100%;
+    padding: 3em 3em;
+    margin: auto;
+  }
+  .prodemark{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+  .prog {
+    padding-top: 1em;
+    padding: 1em 8.5em;
+  }
+  .des {
+    padding: 1em 12em;
+  }
+  .mark {
+    padding: 1em 10em;
+  }
+
+  .prodemarkp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 8em;
+  }
+  .prodemarkp1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10em;
+  }
+
+  .desp, .markp {
+    margin-left: 14em;
+  }
+  .prog1{
+    margin-left: 2em;
+  }
+  .desp1, .markp1 {
+    margin-left: 19em;
+  }
+h1{
+    text-align: center;
+    padding-top: 2em;
+}
+.section3_partie2{
+  background: #E5E4E2;
+  height: 300px;
+}
+
+
+.section4_partie2{
+    background: #EBEBEB;
+    height: 250px;
+    font-size: 20px;
+}
+.images1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.imagewordpress, .imagehtml-css, .imagecanva, .imagejava-script{
+  width: 333px;
+  height: 300px;
+}
+.imagejava-script img{
+  width: 200px;
+  height: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 3em;
+}
+.imagewordpress img, .imagehtml-css img, .imagecanva img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 5em;
+}
+.imagewordpress{
+  background-color: #91A3B0;
+}
+.imagehtml-css{
+  background-color: #6699CC;
+}
+.imagecanva{
+  background-color: #343434;
+}
+.imagejava-script{
+  background-color: #36454F;
+}
+
+.images2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.imageinkscape img{
+  width: 200px;
+  height: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 4em;
+}
+.imagejava, .imageinkscape, .imageAe, .imagepython{
+  width: 333px;
+  height: 300px;
+}
+.imagejava img img, .imageAe img, .imagepython img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 5em;
+}
+.imagejava{
+  background-color: #483C32;
+}
+.imageinkscape{
+  background-color: #5D8AA8;
+}
+.imageAe{
+  background-color: #00416A;
+}
+.imagepython{
+  background-color: #CCCCFF;
+}
+
+.section4 img{
+  width: 200px;
+  margin: auto;
+}
+
+.partie2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5em;
+  margin-right: 5em;
+  
+}
+.ligne{
+  margin-bottom: 3em;
+}
+.info{
+  width: 500px;
+}
+.ligne{
+  height: 10px;
+  width: 500px;
+  background: #BEBFC5;
+  position: relative;
+  border-radius: 10px;
+} 
+.ligne::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #91A3B0;
+  border-radius: 10px;
+}
+.pratique::before{
+  width: 100%;
+}
+.opportunités::before{
+  width: 90%;
+}
+.bakelites::before{
+  width: 80%;
+}
+.nada::before{
+  width: 70%;
+}
+
+.section6{
+  background-color: #7BAFD4;
+}
+.section6 h1, .section6 p{
+  text-align: center;
+  color: white;
+}
+.images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.imageicon1, .imageicon2, .imageicon3, .imageicon4{
+  width: 250px;
+  height: 350px;
+  margin-left: 4em;
+}
+.imageicon1 img, .imageicon2 img, .imageicon3 img, .imageicon4 img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 350px;
+  margin-left: 2em;
+}
+
+.imageicon1{
+  background-color: #A0785A;
+}
+.imageicon2{
+  background-color: #FF6FFF;
+}
+.imageicon3{
+  background-color: #B9D9EB;
+}
+.imageicon4{
+  background-color: #FF91AF;
+}
+
+.piedimages{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: -168em;
+}
+
+.piedimages h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 250px;
+  height: 60px;
+  margin-left: 2.7em;
+}
+.images_pied{
+  padding: 5em 0em;
+}
+
+.section7 img{
+  width: 100px;
+  margin-left: 35em;
+  padding-bottom: 10em;
+}
+.section7 p{
+  text-align: center;
+}
+.section7 h1{
+  padding-bottom: 5em;
+}
+
+.section8{
+  background-color: #E5E4E2;
+}
+.section8 img{
+  width: 100px;
+  margin-left: 35em;
+  margin-top: 5em;
+  margin-bottom: 8em;
+}
+.section8 p{
+  font-weight: bold;
+}
+
+.section8 h3{
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 8em;
+}
+.divsection8{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15em;
+  margin-right: 15em;
+  padding-bottom: 2em;
+}
+h6{
+  text-align: center;
+  padding-bottom: 7em;
+}

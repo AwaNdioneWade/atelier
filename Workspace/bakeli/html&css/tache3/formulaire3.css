@@ -1,0 +1,86 @@
+
+.section_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ma_photo img{
+    position: relative;
+    width: 600px;
+    float: right;
+    clear: left;
+    height: 40em;
+}
+.inscription{
+    display: flex;
+    flex-direction: column;
+    background-color: #231918;
+    width: 45%;
+    float: left;
+    clear: right;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    margin-left: 2em;
+}
+input, textarea, select{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    bottom: 1em;
+    background-color: #231918;
+    color: white;
+}
+
+td{
+    color: white;
+}
+tr:active{
+    color:#AC5C74;
+}
+
+.radio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pers1, .pers2, .pers3, .pers4, .pers5, .pers6{
+    display: none;
+ }
+ .pers1 + label, .pers2 + label, .pers3 + label, .pers4 + label, .pers5 + label, .pers6 + label{
+     padding: 0.5em 0.5em; 
+     border-radius: 50%;
+     background-color: #fff;
+     color: #231918;
+     margin: 10px;
+  }
+  .pers1:checked + label, .pers2:checked + label, .pers3:checked + label, .pers4:checked + label, .pers5:checked + label, .pers6:checked + label{
+    border: 3px solid #AC5C74;
+    padding-right: 3em;
+    background-color: #231918;
+  }
+  label:checked{
+    background-color: #231918;
+  }
+.radio:active{
+    width: 30em;
+    color:#AC5C74;
+}
+button{
+    background-color: #AC5C74;
+    width: 20em;
+    border: 1px;
+    height: 3em;
+    color: white;
+}
+h5{
+    color:#AC5C74;
+}

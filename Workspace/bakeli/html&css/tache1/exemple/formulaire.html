@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>les bases en HTML</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="formulaire.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>CSS avancé</h1>
+       <form method="post" action="traitement.php">
+            <fieldset id="section1">
+                <legend>Informations personnelles</legend>
+                <label for="prenom">Entrez votre prénom</label>
+                <input type="text" name="prenom" id="prenom" autocomplete="on" autofocus="autofocus"><br>
+                <label for="nom">Entrez votre nom</label>
+                <input type="text" name="nom" id="nom" placeholder="EX:Wade" required="required"><br>
+                <label for="pseudo">Entrez un pseudonyme</label>
+                <input type="text" name="pseudo" id="pseudo" ><br>
+            </fieldset>
+            <fieldset id="section2">
+                <legend>Informations supplémentaires</legend>
+                Quel(s) est votre loisir?<br>
+                <input type="checkbox" name="loisir" value="informatique" id="inf">
+                <label for="inf">informatique</label>
+                <input type="checkbox" name="loisir" value="sport" id="sport">
+                <label for="sport">sport</label>
+                <input type="checkbox" name="loisir" value="voyage" id="voyage">
+                <label for="voyage">voyage</label>
+                <input type="checkbox" name="loisir" value="musique" id="musique">
+                <label for="musique">musique</label><br>
+            </fieldset>
+            <input type="submit" value="Envoyer">
+       </form>
+    </body>
+</html>

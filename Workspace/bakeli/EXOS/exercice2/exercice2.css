@@ -1,0 +1,91 @@
+nav img{
+    width: 150px;
+}
+.div1{
+    width: 80%;
+    height: 100px;
+    border: 1px solid #009688;
+    background: #009688;
+    margin-left: 50px;
+}
+nav{
+    display: flex;
+}
+.contenu{
+    display: flex;
+    flex-direction: row;
+}
+.contenu2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: -500px;
+    width: 15%;
+}
+.droite{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: -300px;
+}
+
+/* .contenu1{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 125px;
+    left: 150px;
+}
+.contenu2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 300px;
+    margin-left: 145px;
+} */
+
+.div2{
+    width: 180px;
+    height: 500px;
+    border: 1px solid #009688;
+    background: #009688;
+    margin-top: 50px;
+}
+.div3, .div7{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #009688;
+    background: #009688;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.div4, .div5, .div6{
+    width: 10%;
+    height: 150px;
+    border: 1px solid #009688;
+    background: #009688;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.div8{
+    width: 70%;
+    height: 50px;
+    border: 1px solid #009688;
+    background: #009688;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.div9{
+    width: 70%;
+    height: 100px;
+    border: 1px solid #009688;
+    background: #009688;
+    margin-left: 255px;
+    margin-top: 50px;
+}
+
+@media screen and(max-width: 1000px){
+    .contenu2{
+        width: 85%;
+    }
+}

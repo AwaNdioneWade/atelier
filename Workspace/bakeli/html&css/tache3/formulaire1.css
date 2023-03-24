@@ -1,0 +1,98 @@
+body{
+    background-image: url("anw2 C.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.section_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 500px;
+    background: white;
+    margin: auto;
+    margin-top: 5em;    
+    margin-bottom: 5em;
+}
+.ma_photo img{
+    position: relative;
+    margin-left: 1em;
+    width: 300px;
+    height: 440px;
+    display: flex;
+    clear: right;
+    padding: 1em;
+}
+h1{
+    text-align: center;
+    padding-bottom: 2em;
+}
+.inscription{
+    
+    width: 50%;
+    float: right;
+    float: top;
+    clear: left;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+.formulaire{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.nom_prenom{
+    display: flex;
+    flex-direction: row;
+}
+
+.nom {
+    margin-right: 1em;
+}
+input[type=text]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    bottom: 1em;
+    width: 155px;
+}
+form button{
+    width: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+    height: 3em;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+.icone{
+    position: relative;
+}
+input[type=pseudo], input[type=email], input[type=password]{
+    width: 330px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    bottom: 1em;
+}
+select{
+    width: 330px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    bottom: 1em;
+}
+.icone i{
+    position: absolute;
+    top: 0em;
+    left: 20em;
+}
+@media screen and (max-width:1000px){
+    
+}

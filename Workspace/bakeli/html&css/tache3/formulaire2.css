@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(to right, #492669, #AC5C74);
+    background-size: 100%;
+}
+.section_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5em;    
+    margin-bottom: 5em;
+}
+
+
+.inscription{
+    background-color: #04014E;
+    width: 50%;
+    float: left;
+    clear: right;
+    display: flex;
+    flex-direction: column;
+    padding: 8em;
+    
+}
+
+/*.formulaire{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}*/
+h1{
+    text-align: center;
+   
+    color: #AC5C74;
+}
+input, textarea, select{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    bottom: 1em;
+    background-color: #04014E;
+}
+input, textarea, select{
+    margin-left: 2em;
+}
+textarea{
+    height: 3em;
+}
+select, input[name=prix]{ 
+    border-bottom: none;
+    color: white;
+}
+
+td{
+    color: white;
+}
+
+button{
+    background: linear-gradient(#AC5C74, #492669);
+    width: 20em;
+    border: 1px;
+    height: 3em;
+    color: white;
+}
+.ma_photo img{
+    position: relative;
+    width: 100%;
+    float: right;
+    clear: left;
+    padding: 1em;
+}
+
+.pied_img{
+    position: absolute;
+    bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #492669, #AC5C74);
+    opacity: 0.8;
+    width: 30%;
+    padding-right: 4em;
+}
+h5{
+    margin: auto;
+}

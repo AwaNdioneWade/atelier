@@ -1,0 +1,53 @@
+<!Doctype html>
+<html lang="fr">
+     <head>
+        <meta charset="utf-8">
+        <link href="formulaire1.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <title>Formulaire 1</title>
+     </head>
+     <body>
+          <section class="section_principal">
+               <section class="ma_photo">
+                    <img src="anw2.jpg" alt="ma_photo">
+               </section>
+               <section class="inscription">
+                    <h1>Formulaire d'inscription</h1>
+                    <form>
+                         <div class="formulaire">
+                              <div class="nom_prenom">
+                                   <div class="nom">
+                                        <input type="text" placeholder="Votre Nom" name="nom" id="nom">
+                                   </div>
+                                   <div class="prenom">
+                                        <input type="text" placeholder="Prenom" name="prenom" id="prenom">
+                                   </div>
+                              </div>
+                              <div class="icone">
+                                   <input type="pseudo" placeholder="Pseudo" name="pseudo" id="pseudo">
+                                   <i class="fa fa-user" aria-hidden="true"></i>
+                              </div>
+                              <div class="icone">
+                                   <input type="email" placeholder="Adresse Email" name="mail" id="mail">
+                                   <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                              </div>
+                                   <select name="genre">
+                                        <option value="" disabled selected hidden>Genre</option>
+                                        <option value="femme">Femme</option>
+                                        <option value="homme">Homme</option>
+                                   </select>
+                              <div class="icone">
+                                   <input type="password" placeholder="Mots de passe" name="pass" id="pass">
+                                   <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                              </div>
+                              <div class="icone">
+                                   <input type="password" placeholder="confirmer vorte Mots de passe" name="pass" id="pass">
+                                   <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                              </div>
+                              <button type="submit">ENREGISTRER</button>
+                         </div>
+                    </form>
+               </section>
+          </section>
+     </body>
+</html>
