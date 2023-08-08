@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h1, section h2 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.caseInput {
+    display: flex;
+    gap: 20px;
+}
+
+input{
+    padding: 12px;
+    width: 400px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.caseInput button{
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* #listeTache{
+    display: flex;
+    flex-direction: row;
+} */
+.paragraph{
+    width: 100%;
+}
+.rouge{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.vert{
+    background-color: green;
+}
+
+#listeTache{
+    width: 450px;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button{
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+}
+.tache{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+

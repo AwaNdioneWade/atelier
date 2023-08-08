@@ -1,0 +1,12 @@
+let mois = ['Janvier', 'Fevrier', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet'];
+delete mois[5];
+console.log('delete', mois);
+document.write(mois + '\n');
+let pushMois = ['Janvier', 'Fevrier', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet'];
+pushMois.push('Aout');
+console.log('push', pushMois);
+document.write(pushMois);
+mois.splice(1,1, 'fevrier');
+console.log('splice', mois);
+document.write('\n' + mois.length);
+document.write('\n' + mois[2]);

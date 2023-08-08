@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h1, #listeTache h2 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.caseInput {
+    display: flex;
+    gap: 20px;
+}
+
+input{
+    padding: 10px;
+    width: 400px;
+}
+.caseInput button{
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#listeTache{
+    width: 425px;
+}
+
+.tache-style{
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: burlywood;
+    border-radius: 10px;
+    word-break: break-all;
+    cursor: pointer;
+}
+
+.barre-style{
+    background-color: red;
+    text-decoration: line-through;
+}
