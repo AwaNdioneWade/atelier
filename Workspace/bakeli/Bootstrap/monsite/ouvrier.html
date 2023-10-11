@@ -1,0 +1,142 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font favicon -->
+        <link rel="icon" href="images/favicon.png">
+        <!-- bootstrap5 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <script src="https://kit.fontawesome.com/3e56bd9026.js" crossorigin="anonymous"></script>
+        <!-- Font Awesome5 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- button navbar -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <!-- tooltip -->
+        <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        </script>
+        <!-- avoir accès aux icônes des différents langages web (HTML, CSS, Sass, JS, etc.) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>tache8</title>
+        <link rel="stylesheet" href="animation.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar nav-underline py-3 navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container-fluid">
+                <div class="logo ms-md-5">
+                    <a class="navbar-brand" href="#"><img src="images/demo-logo.png"></a></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+                <div class="collapse navbar-collapse ms-5" id="navbarNav">
+                    <ul class="navbar-nav m-auto d-flex justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-md-4" href="ouvrier.html">Trouver un ouvier</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-md-4" href="#">Faire une annonce</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-md-4" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row group-icon d-md-flex d-none me-5">
+                    <div class="rounded-circle mt-2 d-flex align-items-center justify-content-center me-5">
+                        <a href="#"><i class="fs-5 fa-solid fa-basket-shopping" style="color: white;"></i></a>
+                    </div>
+                    <div class="rounded-circle d-flex mt-2 align-items-center justify-content-center me-2">
+                        <a href="#"><i class="fs-5 fa-solid fa-user" style="color: white;"></i></a>
+                    </div>
+                    <div class="rounded-circle ms-5 mt-2 d-flex align-items-center justify-content-center me-2">
+                        <a href="#"><i class="fa-brands fa-facebook-f" style="color: white;"></i></a>
+                    </div>
+                    <div class="rounded-circle d-flex mt-2 align-items-center justify-content-center me-2">
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: white;"></i></a>
+                    </div>
+                    <div class="rounded-circle d-flex mt-2 align-items-center justify-content-center me-2">
+                        <a href="#"><i class="fa-brands fa-linkedin-in" style="color: white;"></i></a>
+                    </div>
+                    <div class="rounded-circle d-flex mt-2 align-items-center justify-content-center me-2">
+                        <a href="#"><i class="fa-brands fa-behance" style="color: white;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-4 ms-md-5 mb-md-0 mb-5 card" style="width: 18rem;">
+                    <img src="images/plomberie.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>PLOMBERIE</h3>
+                        <p class="card-text"><a href="plombier">Voir profil</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 ms-md-5 mb-md-0 mb-5 card" style="width: 18rem;">
+                    <img src="images/maçonnerie.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Maçonnerie</h3>
+                        <p class="card-text"><a href="plombier">Voir profil</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 ms-md-5 mb-md-0 mb-5 card" style="width: 18rem;">
+                    <img src="images/electricite.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Electricité</h3>
+                        <p class="card-text"><a href="plombier">Voir profil</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-4 ms-md-5 mb-md-0 mb-5 card" style="width: 18rem;">
+                    <img src="images/peindre.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Peindre</h3>
+                        <p class="card-text"><a href="plombier">Voir profil</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 ms-md-5 mb-md-0 mb-5 card" style="width: 18rem;">
+                    <img src="images/deco.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Déco</h3>
+                        <p class="card-text"><a href="plombier">Voir profil</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 ms-md-5 mb-md-0 mb-5 card" style="width: 18rem;">
+                    <img src="images/menuserire-bois.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Menuserie bois</h3>
+                        <p class="card-text"><a href="plombier">Voir profil</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5 d-flex ms-5">
+                <div class="col-12 col-md-4 ms-md-5 mb-md-0 mb-5 card" style="width: 18rem;">
+                    <img src="images/menuserire-aluminium.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Menuserire-aluminium</h3>
+                        <p class="card-text"><a href="plombier">Voir profil</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>     

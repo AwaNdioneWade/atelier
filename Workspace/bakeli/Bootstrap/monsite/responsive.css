@@ -1,0 +1,66 @@
+@media screen and (max-width: 1199px) {
+    .compteur img{
+        width: 220px;
+    }
+    .iconcompteur{
+        top: 65px;
+    }
+    .compteur .num{
+        top: 20px;
+    }
+
+}
+@media screen and (max-width: 991px) {
+    .compteur img{
+        width: 250px;
+    }
+    .iconcompteur{
+        left: -10px;
+    }
+    .compteur .num{
+        left: -5px;
+        top: 10px;
+    }
+    .logo{
+        order: 1;
+    }
+    .group-icon{
+        order: 2;
+    }
+    .navbar button{
+        order: 3;
+    }
+
+}
+@media screen and (max-width: 658px) {
+    .compteur img{
+        width: 220px;
+    }
+    .iconcompteur{
+        left: -10px;
+    }
+    .compteur .num{
+        left: -5px;
+        top: 10px;
+    }
+    /* .pcompteur{
+        left: px;
+    } */
+
+}
+@media screen and (max-width: 575px) {
+    .compteur img{
+        width: 250px;
+    }
+    .iconcompteur{
+        left: -10px;
+    }
+    .compteur .num{
+        left: -5px;
+        top: 10px;
+    }
+    /* .pcompteur{
+        left: px;
+    } */
+
+}

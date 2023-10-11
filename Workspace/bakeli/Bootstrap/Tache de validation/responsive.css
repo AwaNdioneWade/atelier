@@ -1,0 +1,136 @@
+
+@media screen and (max-width: 1199px) {
+       
+    .jhon h3{   
+        margin-top: 370px;
+    }
+    .jhon p{
+        margin-top: -50px;
+        margin-left: -100px;
+    }
+    .textabout{
+        position: relative;
+        left: 55px;
+    }
+    
+    .mission{
+        position: relative;
+        top: 170px;
+    }
+    .choose{
+        margin-top: 200px;
+    }
+
+}
+/* @media screen and (max-width: 1250px) {
+    .choose{
+        margin-top: 200px;
+    }
+    .compteur{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+       
+    .jhon h3{   
+        margin-top: 370px;
+    }
+    .jhon p{
+        margin-top: -50px;
+        margin-left: -100px;
+    }
+    .textabout{
+        position: relative;
+        left: 55px;
+    }
+    
+    .mission{
+        position: relative;
+        top: 170px;
+    }
+    .choose{
+        margin-top: 200px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+.jhon{
+    height: 750px;
+}
+.chooseimg{
+    margin-top: 60px;
+}
+
+.bleu2{
+    margin-left: 0;
+}
+
+.compteur img{
+    width: 250px;
+    margin-left: 14%;
+}
+.compteur{
+    margin-top: 0;
+}
+.rang{
+    margin-top: 100px;
+}
+.iconcompteur{
+    left: 25px;
+}
+.carousel2{
+    display: none;
+}
+}
+.bleu1, .bleu2, .bleu3{
+    width: 500px;
+}
+
+@media screen and (max-width: 829px) {
+    .textabout{
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .compteur img{
+        width: 250px;
+        margin-left: 0;
+    }
+    .iconcompteur{
+        left: 10px;
+    }
+    .jhon h3{   
+        background: black;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .jhon h3{   
+        margin-top: 370px;
+    }
+    .jhon p{
+        margin-right: -100px;
+    }
+}
+
+@media screen and (max-width: 533px) {
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        left: 300px;
+    }
+    .jhon p{
+        top: 1500px;
+        right: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .jhon img{
+        width: 100px;
+        height: 100px;
+    }
+} */

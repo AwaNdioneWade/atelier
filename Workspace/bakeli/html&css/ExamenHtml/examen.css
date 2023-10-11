@@ -1,0 +1,319 @@
+ body{
+    background-color: #0D5C63;
+ }
+ nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #FF8B42;
+    width: 100%;
+  }
+  nav .list{
+    margin-left: 150px;
+  }
+  nav a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    list-style-type: none;
+  }
+  nav li{
+    text-decoration: none;
+    padding: 0px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  .section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-image: url(section1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+  }  
+  .text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+  }
+  .text .p{
+    width: 60%;
+    margin-left: 20%;
+  }
+  .section1 button{
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+  }
+  .text h1{
+    font-size: 38px;
+  }
+ .user{
+    display: flex;
+    flex-direction: row;
+ }
+ .user i{
+    font-size: 30px;
+   margin-top: 35px;
+   margin-left: 50px;
+ }
+ .section2{
+    display: flex;
+    justify-content: center;
+ }
+ .case{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 55%;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    z-index: 2;
+ }
+ .section3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    bottom: 150px;
+    background-color: #FF8B42;
+    z-index: 1;
+    padding-top: 160px;
+    padding-bottom: 50px;
+ }
+ .box, .box-unik{
+    width: 10%;
+    background-color: white;
+    padding: 15px;
+    margin-left: 50px;
+ }
+ .box-unik{
+    background-color: rgb(126, 128, 129);
+ }
+ .section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #FF8B42;
+    margin-bottom: 150px;
+    padding: 100px;
+  }  
+  .section4 .video{
+    width: 560px; 
+    height:  715px;
+ }
+  .iconp{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  .iconp i{
+    margin-top: 25px;
+  }
+.textsection4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+  .p3{
+    width: 60%;
+  }
+  .soussection4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+  }
+  .most{
+    width: 20%;
+  }
+
+  .section5{
+    background-color: #FF8B42;
+    color: white;
+    margin-bottom: 150px;
+  }
+  .cases img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 150px;
+  }
+  .inf{
+    width: 70%;
+    height: 210px;
+    background-color: white;
+    color: black;
+    margin-left: 50px;
+    padding-left: 40px;
+    padding-top: 10px;
+  }
+  .soussection5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .rect {
+    height: 230px;
+    background-color: white;
+    padding-top: 20px;
+  }
+  .rect img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .section6{
+    background-color: #FF8B42;
+    padding: 100px 0;
+  }
+  .soussection6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+  }
+  .section7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    color: white;
+    padding: 100px;
+    margin-top: 150px;
+    background-color: #FF8B42;
+    margin-bottom: 150px;
+  }
+  .carte img{
+    width: 500px;
+  }
+
+  .portrait{
+    width: 250px;
+    height: 500px;
+    background-image: url(portrait1.jpg);
+    background-size: cover;
+  }
+  form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 30px;
+  }
+  .section8{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    background-color: hsl(23, 100%, 63%);
+    padding: 100px 0;
+    margin-bottom: 150px;
+  }
+  input, select, button{
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  button{
+    color: white;
+    background-color: black;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    background-color: #FF8B42;
+  }
+  .corp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+  }
+  .icon{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .pied{
+    background-color: #0D5C63;
+    text-align: center;
+  }
+
+
+
+  @media screen and (max-width: 767px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+      }
+ 
+  nav .list{
+    margin-left: 0px;
+  }
+  nav a{
+    margin-left: 0px;
+    text-align: center;
+  }
+  nav ul{
+    margin-left: 0px;
+    flex-direction: column;
+  }
+  .case{
+    bottom: 0px;
+}
+.section3{
+    bottom: 0px;
+    flex-direction: column;
+ }
+ .box, .box-unik{
+    width: 90%;
+    margin-bottom: 25px;
+    margin-left: 0px;
+ }
+ .section4 .video{
+    margin-left: 150px;
+ }
+ .soussection4{
+    gap: 25px;
+  }
+ .most{
+    width: 60%;
+  }
+  
+  .carte img{
+    width: 250px;
+  }
+
+  .portrait{
+    width: 90%;
+  }
+  }

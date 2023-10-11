@@ -4,8 +4,8 @@ function Moyenne (){
     let M;
     for(let i = 0; i < nbrNote ; i += 1) {
         let note = prompt('Veillez saisir la note');
-        notes = notes + + note;
-        M = notes / 2;
+        notes = notes + note;
+        M = notes / nbrNote;
     }
     return M; 
 }

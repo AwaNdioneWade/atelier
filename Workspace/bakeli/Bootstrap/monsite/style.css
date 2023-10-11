@@ -1,0 +1,171 @@
+/* NAVBAR */
+.navbar button{
+    color: #FD6400;
+    background-color: white;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    background-color: #FD6400;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: white;
+    text-decoration: none;
+    color: #FD6400;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+    transition: 0.2s linear;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    background-color: white;
+    color: #FD6400;
+}
+
+.nav-underline{
+    background-color: #FD6400;
+}
+
+.group-icon .rounded-circle{ 
+    background-color: #FD6400;
+    width: 30px;
+    height: 30px;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.group-icon .rounded-circle:hover{ 
+    background-color: #FD6400;
+}
+
+.group-icon .rounded-circle:hover{ 
+    background-color: white;
+}
+
+.group-icon .rounded-circle:hover a i{ 
+    color: #FD6400 !important;
+}
+
+/* INDEX */
+.banner button{
+    background-color: #FD6400;
+    border: none;
+    border-radius: 10px;
+}
+
+.banner button a{
+    text-decoration: none;
+    color: white;
+}
+
+.connins{
+    width: 100%;
+    background-color: #FD6400;
+}
+
+.recruteur, .ouvrier{
+    background-color: white;
+    color: #FD6400;
+    border-radius: 25px;
+    box-shadow: 8px 8px 12px #aaa;
+}
+
+
+.connins a{
+    text-decoration: none;
+    color: white;
+}
+.connins button{
+    background-color: #FD6400;
+    border: none;
+    border-radius: 5px;
+}
+
+/* COMPTEURS */
+.compteurs{
+    background-color: #FD6400;
+    padding-top: 100px;
+}
+.compteur img{
+    width: 250px;
+}
+.counter{
+    display: block;
+    -webkit-animation: spin 80s linear infinite;
+    -moz-animation: spin 80s linear infinite;
+    animation: spin 80s linear infinite;
+    /* -webkit-transition: -webkit-transform 1s;
+    -webkit-transform: rotate(360deg) translateZ(0); */
+}
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+.compteur .num{
+    position: relative;
+    left: 0px;
+    font-size: 40px;
+}
+.iconcompteur{
+    position: relative;
+    top: 55px;
+    left: -8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #ff7c08;
+    font-size: 20px;
+    margin-left: 35%;
+}
+.pcompteur{
+    position: relative;
+    top: 80px;
+    font-size: 22px;
+}
+.countercontent{
+    position: relative;
+    bottom: 160px;
+    font-size: 22px;
+}
+
+/* CONTACT */
+.contact{
+    color: white;
+}
+.contact input::placeholder, .contact textarea::placeholder{
+    color: #FD6400;
+}
+.num{
+    position: relative;
+    left: -40px;
+}
+.contact button{
+    background-color: #FD6400;
+    border: none;
+    border-radius: 50px;
+}
+.contact button a{
+    text-decoration: none;
+    color: white;
+}
+.contact .info{
+    background-color: #FD6400;
+}
+.contact iframe{
+    width: 100%;
+}

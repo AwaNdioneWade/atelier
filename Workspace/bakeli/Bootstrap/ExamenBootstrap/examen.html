@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font favicon -->
+    <link rel="icon" href="images/favicon.png">
+    <!-- bootstrap5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/3e56bd9026.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- button navbar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <!-- tooltip -->
+    <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script>
+    <!-- avoir accès aux icônes des différents langages web (HTML, CSS, Sass, JS, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Examen Bootstrap</title>
+    <link rel="stylesheet" href="examen.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-2 lemenu bg-dark text-light">
+                <div class="row">
+                    <div class="col-12 logo d-flex flex-row">
+                        <img src="logo-removebg-preview.png" alt="logo"> 
+                        <h5 class="d-flex flex-row mt-4"><span class="bg-light text-dark">YASH </span> ADMIN</h5>
+                    </div>
+                </div>
+                <div class="row menu d-none d-md-flex">
+                    <div class="col-12 mt-5">
+                        <h6>Your company</h6>                        
+                    </div>
+                    <select class="bg-dark text-light " aria-label="">
+                        <option selected>
+                            <i class="fa-solid fa-house text-light"></i>Dashboard
+                        </option>
+                        <option value="1">-Dashboard Lighy</option>
+                        <option value="2">-Dashboard Dark</option>
+                        <option value="3">-Dashboard 2</option>
+                        <option value="3">-Dashboard 3</option>
+                        <option value="3">-Dashboard 4</option>
+                        <option value="3">-CRM</option>
+                        <option value="3">-Analytics</option>
+                        <option value="3">-Products</option>
+                        <option value="3">-Sales</option>
+                        <option value="3">-Blog</option>
+                    </select>
+                    <div class="col-12 d-flex flex-row mt-3">
+                        <i class="fa-solid fa-bars-progress mt-1"></i>
+                        <p class="ms-3">Tasks</p>
+                    </div>
+                    <div class="col-12 d-flex flex-row">
+                        <i class="fa-solid fa-diagram-project mt-1"></i>
+                        <p class="ms-3">Projects</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-10">
+                <div class="row">
+                    <div class="col-12 col-md-3 offset-md-5 mt-4 d-flex justify-content-end">
+                        <form class="d-flex" role="search">
+                            <input type="search" placeholder="Search" aria-label="Search">
+                            <i class="fa-solid fa-magnifying-glass pt-2 pe-2"></i>
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-3 icon d-flex flex-row mt-4">
+                        <div class="ico px-2 pt-2">
+                            <i class="fa-solid fa-moon"></i>
+                        </div>
+                        <div class="ico ms-5 px-2 pt-2">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="ico ms-5 px-2 pt-2">
+                            <i class="fa-solid fa-envelope-open"></i></div>
+                        <div class="ico ms-5 me-5 px-2 pt-2">
+                            <i class="fa-solid fa-table"></i>
+                        </div>
+                        <img src="portrait1.jpg">
+                    </div>
+                </div>
+                <div class="row mt-5 d-flex justify-content-center">
+                        <div class="card mb-3" style="width: 15rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">Congratulations Hanu !!</h5>
+                              <p>Best seller of the week</p>
+                              <div class="p d-flex flex-row">
+                                <div class="textp">
+                                    <p class="card-text">$43.9k</p>
+                                    <p class="card-text">98% of target</p>
+                                </div>
+                                <img src="kdo-removebg-preview.png" class="ms-5">
+                              </div>
+                              <a href="#" class="btn bg-dark text-light">View sale</a>
+                            </div>
+                        </div>
+                        <div class="card mb-3 ms-md-5 two" style="width: 15rem;">
+                            <div class="card-body">
+                                <div class="h5 d-flex flex-row">
+                                    <h5 class="card-title text-light">+38%^</h5>
+                                    <h5 class="card-title bg-light text-dark ms-5 px-2">$</h5>
+                                </div>
+                                <p class="card-text mt-5">$43.9k</p>
+                                <p class="card-text">Totol Sckers</p>
+                                <a href="#" class="btn bg-light text-dark">Lost 4 Month</a>
+                            </div>
+                        </div>
+                        <div class="card mb-3 ms-md-5 bg-dark text-light" style="width: 15rem;">
+                            <div class="card-body">
+                                <div class="h5 d-flex flex-row">
+                                    <h5 class="card-title">+34%^</h5>
+                                    <i class="fa-solid fa-cart-plus bg-light text-dark ms-5 px-1 pt-2"></i>
+                                </div>
+                                <p class="card-text mt-5">$256k</p>
+                                <p class="card-text">Total Order</p>
+                                <a href="#" class="btn bg-light text-dark">Lost 4 Month</a>
+                            </div>
+                        </div>
+                        <div class="card mb-3 ms-md-5 cercle" style="width: 15rem;">
+                            <div class="card-body">
+                                <div class="h5 d-flex flex-row">
+                                    <h5 class="card-title">$256k</h5>
+                                    <p class="h5p mt-2 ms-1">+59% </p>
+                                </div>
+                                <p class="card-text">Totol Order</p>
+                                <img src="cercle.png" class="ms-5">
+                                <i class="fa-solid fa-gear bg-dark text-light p-2"></i>
+                            </div>
+                        </div>
+                </div>
+                <div class="row mt-5 d-flex justify-content-center">
+                    <div class="card mb-3" style="width: 20rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Organic Trattic</h5>
+                            <img src="cercle.png">
+                            <div class="pied d-flex flex-row mt-5">
+                                <i class="fa-solid fa-circle-dot mt-2 me-1"></i>
+                                <p>html</p>
+                                <i class="fa-solid fa-circle-dot mt-2 ms-2 me-1"></i>
+                                <p>scss</p>
+                                <i class="fa-solid fa-circle-dot mt-2 ms-2 me-1"></i>
+                                <p>Css</p>
+                                <i class="fa-solid fa-circle-dot mt-2 ms-2 me-1"></i>
+                                <p>C++</p>
+                                <i class="fa-solid fa-circle-dot mt-2 ms-2 me-1"></i>
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 ms-md-5 diagramme" style="width: 46rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Timeline</h5>
+                            <img src="diagramme.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 d-flex justify-content-center">
+                    <div class="card mb-3 diagramme" style="width: 21rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Monthly Overview</h5>
+                            <img src="diagramme1.png">
+                            <p>80%</p>
+                            <p>Your sales perfoemance is 49% better compared to laste week</p>
+                        </div>
+                        <a href="#" class="btn bg-dark text-light mb-3">Views Details</a>
+                    </div>
+                    <div class="card mb-3 ms-md-5 sociaux" style="width: 21rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Social networking</h5>
+                            <p>26,38 - 62%</p>
+                            <p> Last 2 years visited</p>
+                            <div class="icone d-flex flex-row">
+                                <div class="un d-flex flex-row">
+                                    <i class="fa-solid fa-basketball mt-3 me-2"></i>
+                                    <div class="icon+ d-flex flex-column">
+                                        <h6>Dribble</h6>
+                                        <p>Social</p>     
+                                    </div>
+                                </div>
+                                <div class="deux d-flex flex-row mt-3 ms-5">
+                                    <p class="ms-5">12,348</p>
+                                    <p>+36%</p>
+                                </div>
+                            </div>
+                            <div class="icone d-flex flex-row">
+                                <div class="un d-flex flex-row">
+                                    <i class="fa-brands fa-linkedin mt-3 me-2"></i>
+                                    <div class="icon+ d-flex flex-column">
+                                        <h6>Linkedin</h6>
+                                        <p>Social</p>     
+                                    </div>
+                                </div>
+                                <div class="deux d-flex flex-row mt-3 ms-5">
+                                    <p class="ms-5">12,348</p>
+                                    <p>+36%</p>
+                                </div>
+                            </div>
+                            <div class="icone d-flex flex-row">
+                                <div class="un d-flex flex-row">
+                                    <i class="fa-brands fa-pinterest mt-3 me-2"></i>
+                                    <div class="icon+ d-flex flex-column">
+                                        <h6>Pinterest</h6>
+                                        <p>Social </p>     
+                                    </div>
+                                </div>
+                                <div class="deux d-flex flex-row mt-3 ms-5">
+                                    <p class="ms-5">12,348</p>
+                                    <p>+36%</p>
+                                </div>
+                            </div>
+                            <div class="icone d-flex flex-row">
+                                <div class="un d-flex flex-row">
+                                    <i class="fa-brands fa-facebook mt-3 me-2"></i>
+                                    <div class="icon+ d-flex flex-column">
+                                        <h6>Facebook</h6>
+                                        <p>Social</p>     
+                                    </div>
+                                </div>
+                                <div class="deux d-flex flex-row mt-3 ms-5">
+                                    <p class="ms-5">12,348</p>
+                                    <p>+36%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 ms-md-5 diagramme" style="width: 21rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Yearly inconnue</h5>
+                            <img src="courbe.jpeg">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cumque soluta expedita illo tempora? Consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 d-flex justify-content-center">
+                    <div class="card mb-3 portrait" style="width: 21rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Social networking</h5>
+                            <p>26,38 - 62%</p>
+                            <p> Last 2 years visited</p>
+                            <div class="icone d-flex flex-row">
+                                <div class="un d-flex flex-row">
+                                    <img src="portrait1.jpg " class="mt-2 me-2">
+                                    <div class="icon+ d-flex flex-column">
+                                        <h6>Liam Risher</h6>
+                                        <p class="d-flex flex-row">21 jul | 08:20-10:30 </p>     
+                                    </div>
+                                </div>
+                                <div class="deux d-flex flex-row mt-3 ms-4">
+                                    <p class="ms-5">12,348</p>
+                                    <p>+36%</p>
+                                </div>
+                            </div>
+                            <div class="icone d-flex flex-row">
+                                <div class="un d-flex flex-row">
+                                    <img src="portrait1.jpg " class="mt-2 me-2">
+                                    <div class="icon+ d-flex flex-column">
+                                        <h6>Olivier Noah</h6>
+                                        <p class="d-flex flex-row">21 jul | 08:20-10:30 </p>     
+                                    </div>
+                                </div>
+                                <div class="deux d-flex flex-row mt-3 ms-4">
+                                    <p class="ms-5">12,348</p>
+                                    <p>+36%</p>
+                                </div>
+                            </div>
+                            <div class="icone d-flex flex-row">
+                                <div class="un d-flex flex-row">
+                                    <img src="portrait1.jpg " class="mt-2 me-2">
+                                    <div class="icon+ d-flex flex-column">
+                                        <h6>Donal Benjalmil</h6>
+                                        <p class="d-flex flex-row">23 May | 07:20-09:30 </p>     
+                                    </div>
+                                </div>
+                                <div class="deux d-flex flex-row mt-3 ms-4">
+                                    <p class="ms-4">12,348</p>
+                                    <p>+36%</p>
+                                </div>
+                            </div>
+                            <div class="icone d-flex flex-row">
+                                <div class="un d-flex flex-row">
+                                    <img src="portrait1.jpg " class="mt-2 me-2">
+                                    <div class="icon+ d-flex flex-column">
+                                        <h6>Willilam Risher</h6>
+                                        <p class="d-flex flex-row">10 April | 07:08-09:30 </p>     
+                                    </div>
+                                </div>
+                                <div class="deux d-flex flex-row mt-3 ms-4">
+                                    <p class="ms-4">12,348</p>
+                                    <p>+36%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 ms-md-5 baton" style="width: 21rem;">
+                        <div class="card-body">
+                            <h5 class="card-title mb-5">Monthly Overview</h5>
+                            <img src="baton.jpeg" class="mt-5">
+                        </div>
+                    </div>
+                    <div class="card mb-3 ms-md-5 diagramme" style="width: 21rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Payment History</h5>
+                            <table class="mt-5">
+                                <tr class="bg-dark text-light">
+                                    <td>Card</td>
+                                    <td>Amount</td>
+                                    <td>Total</td>
+                                </tr>
+                                <tr>
+                                    <td>American Express</td>
+                                    <td>$522</td>
+                                    <td>$4.5226</td>
+                                </tr>
+                                <tr>
+                                    <td>Master card</td>
+                                    <td>$522</td>
+                                    <td>$4.5226</td>
+                                </tr>
+                                <tr>
+                                    <td>Visa card</td>
+                                    <td>$522</td>
+                                    <td>$4.5226</td>
+                                </tr>
+                                <tr>
+                                    <td>American Express</td>
+                                    <td>$522</td>
+                                    <td>$4.5226</td>
+                                </tr>
+                                <tr>
+                                    <td>Master card</td>
+                                    <td>$522</td>
+                                    <td>$4.5226</td>
+                                </tr>
+                                <tr>
+                                    <td>Visa card</td>
+                                    <td>$522</td>
+                                    <td>$4.5226</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

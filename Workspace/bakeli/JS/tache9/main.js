@@ -26,7 +26,7 @@ for(let i = 0; i < nbrelmt2; i++){
     tab2.push(element2);
 }
 document.querySelector('.tab2').innerHTML = 'tableau 2 : ' + tab2;
-tab2.fill(0, 0, nbrelmt2);
+tab2.fill(0, 1, nbrelmt2);
 document.querySelector('.newtab2').innerHTML = 'nouveau tableau 2 :' + tab2;
 
 

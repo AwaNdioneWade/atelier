@@ -1,0 +1,35 @@
+iframe{
+    width: 100%;
+}
+
+.contact input{
+    height: 60px;
+}
+
+.contact textarea{
+    height: 200px;
+}
+
+.box span{
+    font-size: 34px;
+}
+.box h4{
+    margin-left: 22px;
+}
+
+.contact p{
+    font-size: 18px;
+}
+
+.contact .p{
+    color: #666565;
+}
+
+@media screen and (max-width: 767px){
+    .box span{
+        font-size: 20px;
+    }
+    .box h4{
+        margin-left: 10px;
+    }
+}

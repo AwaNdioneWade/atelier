@@ -1,0 +1,330 @@
+/* @media (max-width:1199px){
+    .textabout{
+        position: relative;
+        left: 25px;
+    }
+    .case{
+        width: 1500px;
+        height: 300px;
+    }
+    .case2{
+        margin-left: 0;
+    }
+    .choose h5{
+        color: black
+    }
+} */
+/* @media (max-width:1250px){
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        top: 900px;
+        right: 670px;
+    }
+    .jhon p{
+        top: 1100px;
+        right: 670px;
+    }
+    .mission{
+        position: relative;
+        top: 150px;
+    }
+    .choose{
+        margin-top: 350px;
+    }
+} */
+@media (max-width:1199px){
+    .jhon img{
+        width: 100px;
+        height: 400px;
+    }
+    .jhon h3{
+        top: 00px;
+        left: 350px;
+    }
+    .jhon p{
+        top: 1000px;
+        left: 200px;
+    }
+    .textabout{
+        position: relative;
+        left: 50px;
+    }
+    
+    .mission{
+        position: relative;
+        top: 50px;
+    }
+    .choose{
+        margin-top: 100px;
+    }
+    
+    .case{
+        width: 100%;
+        height: 200px;
+    }
+}
+@media (max-width:1099px){
+    .jhon p{
+        top: 1000px;
+        right: 550px;
+    }
+    .bleu1, .bleu2, .bleu3{
+        position: relative;
+        background-color: #231f40;
+        width: 300px;
+        border-radius: 10px;
+    }
+}
+@media (max-width:1050px){
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        top: 550px;
+        right: 550px;
+    }
+    .jhon p{
+        top: 1000px;
+        right: 550px;
+    }
+}
+@media (max-width:991px){
+    .jhon img{
+        width: 100%;
+        height: 100%;
+    }
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        left: 400px;
+    }
+    .jhon p{
+        top: 1000px;
+        right: 0;
+    }
+
+    .chooseimg{
+        margin-top: 60px;
+    }
+    
+    .chooseimg img{
+        width: 100%;
+        height: 100%;
+    }
+    .case{
+        height: 150px;
+        margin-left: 15px;
+    }
+    .compteur img{
+        width: 250px;
+        margin-left: 14%;
+    }
+    .rang{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:905px){
+    .bleu1, .bleu2, .bleu3{
+        height: 150px;
+        width: 500px;
+    }
+   
+}
+
+@media (max-width:767px) {    
+    .bleu2{
+        margin-left: 0;
+        background-color: #ff7c08;
+    }
+     
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        top: 610px;
+        right: 0px;
+    }
+
+    .compteur img{
+        width: 250px;
+        margin-left: 0;
+    }
+    .bleu1, .bleu2, .bleu3{
+        height: 150px;
+        width: 300px;
+    }
+    
+}
+@media (max-width:680px){
+    .bleu1, .bleu2, .bleu3{
+        height: 150px;
+        width: 400px;
+    }
+    .bleu{
+        position: relative;
+        right: 25px;
+    }
+    .iconemission i{
+        margin-top: 22px;
+        font-size: 25px;
+    }
+}
+@media (max-width:615px){
+    .iconemission i{
+        margin-top: 24px;
+        margin-left: 12px;
+        font-size: 22px;
+    }
+}
+@media (max-width:575px){
+    
+    .compteur img{
+        margin-left: 28%;
+    }
+    .iconcompteur{
+        position: relative;
+        top: 55px;
+        left: 55px;
+    }
+    
+    .rang{
+        margin-top: 0;
+    }
+    .rang1{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:533px){
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        top: 1050px;
+        right: 50px;
+    }
+    .jhon p{
+        top: 1230px;
+        right: 40px;
+    }
+    
+    .mission{
+        position: relative;
+        top: 200px;
+    }
+    .case{
+        width: 92%;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .choose{
+        margin-top: 250px;
+    }
+    
+    .iconemission{
+        width: 110px;
+        height: 50px;
+    }
+    .iconemission i{
+        margin-top: 18px;
+        margin-left: 13px;
+        font-size: 18px;
+    }
+    .compteur img{
+        margin-left: 27%;
+    }
+}
+
+@media (max-width:510px){
+    .jhon img{
+        width: 100%;
+        height: 100%;
+    }
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        top: 980px;
+        right: 0px;
+    }
+    
+    .jhon p{
+        top: 1160px;
+        left: 250px;
+    }
+    .compteur img{
+        margin-left: 26%;
+    }
+}
+@media (max-width:490px){
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        top: 980px;
+        right: 0px;
+    }
+    .compteur img{
+        margin-left: 24%;
+    }
+@media (max-width:460px){
+
+    .compteur img{
+        margin-left: 23%;
+    }
+    
+}
+
+@media (max-width:400px){
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        top: 900px;
+        right: 0px;
+    }
+    
+    .jhon p{
+        top: 1080px;
+        right: 20px;
+    }
+    .textabout{
+        position: relative;
+        top: 170px
+    }
+    .compteur img{
+        margin-left: 17%;
+    }
+    .iconcompteur{
+        position: relative;
+        top: 55px;
+        left: 30px;
+    }
+}
+}
+@media (max-width:380px){
+    .textabout{
+        position: relative;
+        top: 200px
+    }
+}
+/* @media (max-width:320px){
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        top: 850px;
+        right: 0px;
+    }
+}
+@media (max-width:260px){
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        top: 920px;
+        right: 50px;
+    }
+}
+@media (max-width:237px){
+    .jhon h3{
+        width: 180px;
+        height: 180px;
+        top: 950px;
+        right: 30px;
+    }
+} */

@@ -1,0 +1,292 @@
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font favicon -->
+        <link rel="icon" href="images/favicon.png">
+        <!-- bootstrap5 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <script src="https://kit.fontawesome.com/3e56bd9026.js" crossorigin="anonymous"></script>
+        <!-- Font Awesome5 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- button navbar -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <!-- tooltip -->
+        <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        </script>
+        <!-- avoir accès aux icônes des différents langages web (HTML, CSS, Sass, JS, etc.) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>"NomSite"</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body>
+        <nav class="navbar nav-underline py-3 navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container-fluid">
+                <div class="logo ms-md-5">
+                    <a class="navbar-brand" href="#"><img src="images/demo-logo.png"></a></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse ms-5" id="navbarNav">
+                    <ul class="navbar-nav m-auto d-flex justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link ms-md-4 ms-0" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-md-4" href="ouvrier.html">Trouver un ouvier</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-md-4" href="#">Faire une annonce</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-md-4" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row group-icon d-md-flex d-none me-5">
+                    <!-- <div class="rounded-circle mt-2 d-flex align-items-center justify-content-center me-5">
+                        <a href="#"><i class="fs-5 fa-solid fa-basket-shopping" style="color: white;"></i></a>
+                    </div> -->
+                    <!-- <div class="rounded-circle d-flex mt-2 align-items-center justify-content-center me-2">
+                        <a href="#"><i class="fs-5 fa-solid fa-user" style="color: white;"></i></a>
+                    </div> -->
+                    <div class="rounded-circle ms-5 mt-2 d-flex align-items-center justify-content-center me-2">
+                        <a href="#"><i class="fa-brands fa-facebook-f" style="color: white;"></i></a>
+                    </div>
+                    <div class="rounded-circle d-flex mt-2 align-items-center justify-content-center me-2">
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: white;"></i></a>
+                    </div>
+                    <div class="rounded-circle d-flex mt-2 align-items-center justify-content-center me-2">
+                        <a href="#"><i class="fa-brands fa-linkedin-in" style="color: white;"></i></a>
+                    </div>
+                    <!-- <div class="rounded-circle d-flex mt-2 align-items-center justify-content-center me-2">
+                        <a href="#"><i class="fa-brands fa-behance" style="color: white;"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </nav>
+        <div class="container mb-5 banner">
+            <div class="row">
+                <div class="col-12 col-md-6 mt-5">
+                    <h1>Groupe</h1>
+                    <h1>"NomSite"</h1>
+                    <button class="mt-4 px-3 py-2 me-4"><a href="#propos">A propos</a></button>     
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="images/logo.png">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-5 text-light connins my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <h1 class=" text-center">BIENVENUE chez "NomSite"</h1>
+                    </div>
+                    <div class="col-12 col-md-5 mb-5 mb-md-0 recruteur py-4 d-flex flex-column justify-content-center align-items-center">
+                        <p class="text-center">Vous etes à la recherche d'un ouvrier ???</p>
+                        <p class="text-center">Nous avons celui qu'il vous faut faites nous confiance.</p>
+                        <p class="text-center">"NomSite" est la bonne adresse.</p> 
+                        <div class="d-flex flex-row">
+                            <button class="mt-4 py-2 me-4"><a href="ouvrier.html">Voir ouvrier</a></button>     
+                            <button class="mt-4 py-2 ms-4"><a href="ouvrier.html">Faire annonce</a></button>   
+                        </div>                      
+                    </div>
+                    <div class="col-12 offset-md-2 col-md-5 ouvrier py-4 text-center d-flex flex-column justify-content-center align-items-center">
+                        <p>Ouvrier??? "NomSite" est là pour vous</p>
+                        <p>Déposer votre CV pour décrocher un emploi ou encore plus trouver une école pour vous former dans le métier que vous voulez et augmentez ainsi vos chance d'avoir un travail'.</p>
+                        <div class="d-flex flex-row">
+                            <button class="mt-4 py-2 me-4"><a href="#">Déposez CV</button>
+                            <button class="mt-4 py-2 ms-4"><a href="ecole.html">Nos écoles</a></button>  
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5 py-5" id="propos">
+            <div class="row">
+                <div class="col-12">
+                    <h1>A propos de "NomSite"</h1>
+                </div>
+                <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eius voluptatibus debitis, fugit molestiae porro perferendis nesciunt molestias quo, accusantium quibusdam nostrum enim doloremque dolore. Consectetur a illum quo aliquam impedit tempore voluptas maxime modi consequatur fugiat? Soluta nobis consectetur recusandae vitae nulla totam corrupti ipsam, minus iure, illo quod porro saepe amet fuga qui sit. Numquam repellendus officia natus dicta, amet ad veniam velit esse ut fugit necessitatibus, delectus quo provident consequuntur non quasi cupiditate dolorem neque accusantium repudiandae atque quibusdam voluptatum? Nam quo impedit distinctio neque quae vel voluptatibus, veritatis pariatur rerum ea architecto asperiores libero illo hic? Dolores repellat ipsa praesentium impedit sunt earum quis rerum atque eligendi, itaque doloremque tempora nostrum quam, animi quasi ea soluta labore et, magnam nesciunt iusto. Officia dolorum corporis maiores distinctio odit, tempore reiciendis iste, dolores quidem labore consequatur, eaque deleniti error fugit soluta! Aut officiis laborum expedita suscipit ex cum iure corrupti, facilis laudantium enim fugiat voluptatum maxime quo quisquam odio neque veniam, libero hic asperiores voluptas culpa deserunt. Deserunt, est sunt. Sed ut expedita explicabo aliquam assumenda, perspiciatis aut, eaque provident necessitatibus officia rem obcaecati ad inventore enim aspernatur repudiandae sunt, optio odio. Accusamus consequatur esse temporibus exercitationem eos nulla aliquid vero ipsam possimus commodi iste quidem ea ut, sunt recusandae. Rerum dicta minima est alias necessitatibus quod nam ullam debitis cum magni labore pariatur fugit itaque deleniti blanditiis eius dolorem, accusantium laboriosam deserunt sit dolor. Qui, alias a nesciunt non possimus modi odit maiores, et voluptatibus perspiciatis nihil facilis nulla. Deserunt aspernatur magnam ipsum earum cupiditate facilis magni voluptatem. Harum perspiciatis doloremque rerum quos obcaecati? Provident aut aliquid ad obcaecati dolorem fuga maxime, hic voluptatem nostrum aperiam natus pariatur aliquam, cum debitis necessitatibus beatae. Saepe dolor consequatur itaque consequuntur esse sapiente. Provident, nesciunt distinctio rem sit dolores eius?</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid compteurs d-flex justify-content-center align-items-center text-center">
+            <div class="row cpt d-flex justify-content-center align-items-center">
+                <div class="col-12 col-sm-6 col-lg-3 compteur rang rang1 d-flex flex-column justify-content-center align-items-center text-light text-center">
+                    <img src="images/counter_shapes.png" class="counter">
+                    <div class="countercontent">
+                            <span class="num" data-val="500">000</span>
+                            <span class="iconcompteur d-flex align-items-center justify-content-center" ><i class="fa-solid fa-user"></i></span>
+                            <p class="pcompteur">Nos uvriers</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 compteur rang d-flex flex-column justify-content-center align-items-center text-light text-center">
+                    <img src="images/counter_shapes.png" class="counter">
+                    <div class="countercontent">
+                        <span class="num" data-val="120">000</span>
+                        <span class="iconcompteur d-flex align-items-center justify-content-center" ><i class="fa-solid fa-user"></i></span>
+                        <p class="pcompteur">Satisfaction</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 compteur d-flex flex-column justify-content-center align-items-center text-light text-center">
+                    <img src="images/counter_shapes.png" class="counter">
+                    <div class="countercontent">
+                        <span class="num" data-val="50">000</span>
+                        <span class="iconcompteur d-flex align-items-center justify-content-center" ><i class="fa-solid fa-users"></i></span>
+                        <p class="pcompteur">Nos écoles</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 compteur d-flex flex-column justify-content-center align-items-center text-light text-center">
+                    <img src="images/counter_shapes.png" class="counter">
+                    <div class="countercontent">
+                        <span class="num" data-val="100">000</span>
+                        <span class="iconcompteur d-flex align-items-center justify-content-center" ><i class="fa-solid fa-trophy"></i></span>
+                        <p class="pcompteur">Annonces</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <section class="footer mt-5" id="footer">
+        <div class="container-fluid footer-regfood py-5">
+            <div class="container">
+                <div class="row gy-4 d-flex justify-content-center">
+                    <div class=" col-12 col-lg-4 col-md-6  me-0 me-lg-3">
+                        <a class="navbar-brand" href="#">
+                            <img src="footer_logo.png"/>
+                        </a>
+                        <p class="py-3" style="color: #FD6400">
+                            Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Repudiandae quod rerum ipsa
+                            impedit, officiis error ut reiciendis ab.
+                        </p>
+                        <div class="row py-2 ms-2 gy-2 d-flex flex-row">
+                            <div class="rounded-circle d-flex align-items-center justify-content-center me-2">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f" style="color: #FD6400"></i>
+                                </a>
+                            </div>
+                            <div class="rounded-circle d-flex align-items-center justify-content-center me-2">
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in" style="color: #FD6400"></i>
+                                </a>
+                            </div>
+                            <div class="rounded-circle d-flex align-items-center justify-content-center me-2">
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter" style="color: #FD6400"></i>
+                                </a>
+                            </div>
+                            <div class="rounded-circle d-flex align-items-center justify-content-center me-2">
+                                <a href="#">
+                                    <i class="fa-brands fa-behance" style="color: #FD6400"></i>
+                                </a>
+                            </div>
+                            <div class="rounded-circle d-flex align-items-center justify-content-center me-2">
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram" style="color: #FD6400"></i>
+                                </a>
+                            </div>
+                            <div class="rounded-circle d-flex align-items-center justify-content-center me-2">
+                                <a href="#">
+                                    <i class="fa-brands fa-google-plus-g" style="color: #FD6400"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-2 col-md-6 me-0 me-lg-3">
+                        <h4 class="titre-descriptif position-relative p-2 " style="color: #ff7c08">Short Link</h4>
+                        <ul class="nav flex-column">
+                            <div class="hstack">
+                                <i class="fa-solid fa-square fa-2xs" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1" href="#" style="color: #ff7c08">Home</a>
+                            </div>
+                            <div class="hstack">
+                                <i class="fa-solid fa-square fa-2xs" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1" href="#" style="color: #ff7c08">About Us</a>
+                            </div>
+                            <div class="hstack">
+                                <i class="fa-solid fa-square fa-2xs" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1" href="#" style="color: #ff7c08">Contact Us</a>
+                            </div>
+                            <div class="hstack">
+                                <i class="fa-solid fa-square fa-2xs" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1" href="#" style="color: #ff7c08">Our Service</a>
+                            </div>
+                            <div class="hstack">
+                                <i class="fa-solid fa-square fa-2xs" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1" href="#" style="color: #ff7c08">Gallery</a>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 me-0 me-lg-3">
+                        <h4 class="titre-descriptif position-relative p-2"  style="color: #ff7c08">Help Link </h4>
+                        <ul class="nav flex-column">
+                            <div class="hstack">
+                                <i class="fa-solid fa-square fa-2xs" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1" hxsf="#" style="color: #ff7c08">Terms & Conditions</a>
+                            </div>
+                            <div class="hstack">
+                                <i class="fa-solid fa-square fa-2xs" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1" href="#" style="color: #ff7c08">Privacy Policy</a>
+                            </div>
+                            <div class="hstack">
+                                <i class="fa-solid fa-square fa-2xs" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1" href="#" style="color: #ff7c08">Refund Policy</a
+                                >
+                            </div>
+                            <div class="hstack">
+                                <i class="fa-solid fa-square fa-2xs" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1" href="#" style="color: #ff7c08">FAQ</a>
+                            </div>
+                            <div class="hstack">
+                                <i class="fa-solid fa-square fa-2xs" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1" href="#" style="color: #ff7c08">Contact</a>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6  last-column me-0 me-lg-3">
+                        <h4 class="p-2 titre-descriptif3 position-relative" style="color: #ff7c08">Contact Us</h4>
+                        <ul class="nav flex-column">
+                            <div class="hstack  position-relative mb-3 ">
+                                <i class="fa-solid fa-phone fa-lg" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1 " href="#" style="color: #ff7c08">+44 (0) 20 9994 7740</a>
+                            </div>
+                            <div class="hstack position-relative  mb-3 py-3">
+                                <i class="fa-solid fa-envelope fa-lg" style="color: #ff7c08"></i>
+                                <a class="nav-link mb-1 py-3" href="#" style="color: #ff7c08">themefaxbd@gmail.com</a>
+                            </div>
+                            <div class="hstack  position-relative mb-3 ">
+                                <i class="fa-solid fa-location-dot fa-lg" style="color: #ff7c08;"></i>
+                                <a class="nav-link mb-1 py-3" href="#" style="color: #ff7c08">Blackwell Street , Dry Creek , Alaska</a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer-copyright py-3 d-flex align-items-center justify-content-center">
+            <p class="pt-2" style="color: #ff7c08">
+                Copyright &copy <b>"Nomsite" </b> 2023 . All Rights Reserved
+            </p>
+        </div>
+    </section> 
+
+        <script src="scripte.js"></script>      
+    </body>
+</html>     

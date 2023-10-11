@@ -25,14 +25,9 @@ body{
     
 }
 
-/*.formulaire{
-    display: flex;
-    flex-direction: column;
-    gap: 5em;
-}*/
+
 h1{
     text-align: center;
-   
     color: #AC5C74;
 }
 input, textarea, select{

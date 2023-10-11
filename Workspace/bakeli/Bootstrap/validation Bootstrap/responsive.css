@@ -1,0 +1,318 @@
+
+@media screen and (max-width: 1199px) {
+    
+    .jhon h3{   
+        margin-top: 370px;
+        margin-left: -100px;
+    }
+    
+    .jhon p{
+        margin-top: -100px;
+        margin-left: -100px;
+    }
+    .textabout{
+        position: relative;
+        left: -55px;
+    }
+    .About{
+        margin-bottom: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1070px) {
+    .textabout{
+        margin-left: -60px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .jhon h3{   
+        margin-top: -150px;
+        margin-left: 150px;
+    }
+    
+    .jhon p{
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    .jhon{
+        height: 550px;
+    }
+    
+    .textabout{
+        margin-top: 200px;
+        margin-left: -100px;
+    }
+    
+    .About{
+        margin-bottom: 900px;
+    }
+
+    .chooseimg{
+        margin-top: 50px;
+    }
+
+    .compteur img{
+        width: 250px;
+        margin-left: 14%;
+    }
+    .compteur{
+        margin-top: 0;
+    }
+    .rang{
+        margin-top: 100px;
+    }
+    .iconcompteur{
+        left: 25px;
+    }
+
+    .carousel2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .jhon h3{   
+        margin-left: 110px;
+    }
+    
+    .jhon p{
+        margin-left: 90px;
+    }
+
+    .textabout{
+        margin-left: -80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .jhon h3{   
+        margin-top: 370px;
+        margin-left: 0px;
+    }
+    
+    .jhon p{
+        margin-top: -100px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .textabout{
+        margin-top: 200px
+    }
+    .About{
+        margin-bottom: 950px;
+    }
+    
+    .compteur img{
+        width: 250px;
+        margin-left: 0;
+    }
+    .iconcompteur{
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .jhon h3{   
+        margin-top: -5px;
+        margin-left: -30px;
+    }
+    .jhon p{
+        margin-top: -5px;
+        margin-left: -50px;
+    }
+    .jhon{
+        height: 350px;
+    }
+    .About{
+        margin-bottom: 750px;
+    }
+    .textabout{
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .jhon h3{   
+        margin-top: 40px;
+        margin-left: -70px;
+    }
+    .jhon p{
+        margin-top: -5px;
+        margin-left: -90px;
+    }
+    .textabout p{
+        font-size: 15px;
+    }
+    .textabout img{
+        width: 50px;
+    }
+    .textabout{
+        margin-left: -70px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .jhon h3{   
+        margin-top: 6px;
+        margin-left: -30px;
+    }
+    .jhon p{
+        margin-top: -5px;
+        margin-left: -50px;
+    }
+    .textabout p{
+        font-size: 15px;
+    }
+    .textabout{
+        margin-left: -60px;
+    }
+    
+
+    .cases{
+        margin-left: 30px;
+    }
+
+    .compteur img{
+        margin-left: 28%;
+    }
+    .iconcompteur{
+        position: relative;
+        top: 55px;
+        left: 55px;
+    }
+    
+    .rang{
+        margin-top: 0;
+    }
+    .rang1{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .jhon h3{   
+        margin-top: 6px;
+        margin-left: -50px;
+    }
+    .jhon p{
+        margin-top: -5px;
+        margin-left: -74px;
+    }
+    .textabout p{
+        font-size: 15px;
+    }
+    .textabout{
+        margin-left: -60px;
+    }
+
+    .compteur img{
+        margin-left: 26%;
+    }
+    .iconcompteur{
+        position: relative;
+        top: 55px;
+        left: 45px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .textabout p{
+        font-size: 14px;
+    }
+    .jhon h3{   
+        margin-top: 430px;
+        margin-left: -100px;
+    }
+    .jhon p{
+        margin-top: -145px;
+        margin-left: -130px;
+    } 
+    .jhon{
+        height: 550px;
+    }
+    
+    .About{
+        margin-bottom: 900px;
+    }
+    .textabout{
+        margin-left: -60px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .compteur img{
+        margin-left: 24%;
+    }
+    .iconcompteur{
+        position: relative;
+        top: 55px;
+        left: 45px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .textabout img{
+        width: 50px;
+    }
+    .jhon h3{   
+        margin-left: -120px;
+    }
+    .jhon p{
+        margin-left: -150px;
+    } 
+}
+
+@media screen and (max-width: 490px) {
+    .jhon h3{   
+        margin-left: -250px;
+    }
+    .jhon p{
+        margin-left: -250px;
+    } 
+}
+
+@media screen and (max-width: 460px) {
+    .textabout{
+        margin-top: 130px;
+    }
+    .About{
+        margin-bottom: 850px;
+    }
+
+    .compteur img{
+        margin-left: 21%;
+    }
+    .iconcompteur{
+        position: relative;
+        top: 55px;
+        left: 45px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    
+    .compteur img{
+        margin-left: 19%;
+    }
+    .iconcompteur{
+        position: relative;
+        top: 55px;
+        left: 45px;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .textabout{
+        margin-top: 80px;
+    }
+    .About{
+        margin-bottom: 800px;
+    }
+    .compteur img{
+        margin-left: 18%;
+    }
+}
